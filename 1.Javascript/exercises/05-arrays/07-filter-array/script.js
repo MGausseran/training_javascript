@@ -87,6 +87,14 @@
             age: 81,
         },
     ];
+    document.getElementById("run").addEventListener("click", () => { 
+    let adults = [];
 
-    // your code here
+    for (let person of people) {
+        if (person.age >= 18) {
+            adults.push(person.firstname + person.lastname);
+        }
+    }
+    console.log(adults)
+        })
 })();
