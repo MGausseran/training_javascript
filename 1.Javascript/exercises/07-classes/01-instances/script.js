@@ -16,5 +16,6 @@
             this.age = age;
         }
     }
-    // your code here
+    console.log(new Cat("Skitty", 9));
+    console.log(new Cat("Pixel", 6));
 })();

@@ -10,5 +10,6 @@
 // You will have time to focus on it later.
 
 (() => {
-    // your code here
+    var contenu = document.getElementById("target");
+    contenu.textContent = "owned";
 })();

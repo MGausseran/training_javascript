@@ -10,5 +10,10 @@
 // You will have time to focus on it later.
 
 (() => {
-    // your code here
+    const Martin = {
+        name: "Martin",
+        age: 28,
+        profession: "Développeur Web (en devenir)"
+    };
+    console.log(Martin);
 })();
