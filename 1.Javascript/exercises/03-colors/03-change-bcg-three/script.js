@@ -10,5 +10,11 @@
 // You will have time to focus on it later.
 
 (() => {
-    // your code here
+    function randomHsl() {
+    return 'hsla(' + (Math.floor(Math.random() * 360)) + ', 100%, 50%, 1)';
+    }
+    document.getElementById("run").addEventListener("click", () => {
+        document.body.style.backgroundColor=randomHsl();
+}
+    );
 })();
